@@ -4,6 +4,6 @@
 
 package goctp
 
-//#cgo linux LDFLAGS: -fPIC -L. -L/home/vagrant/src/github.com/qerio/goctp/api/ThostTraderApi_v6.3.6_20160606_linux64 -Wl,-rpath=/home/vagrant/src/github.com/qerio/goctp/api/ThostTraderApi_v6.3.6_20160606_linux64 -lthostmduserapi -lthosttraderapi -lstdc++
-//#cgo linux CPPFLAGS: -fPIC -I. -I/home/vagrant/src/github.com/qerio/goctp/api/ThostTraderApi_v6.3.6_20160606_linux64
+//#cgo linux LDFLAGS: -fPIC -L. -L/home/vagrant/src/github.com/mrwill84/goctp/api/ThostTraderApi_v6.3.6_20160606_linux64 -Wl,-rpath=/home/vagrant/src/github.com/mrwill84/goctp/api/ThostTraderApi_v6.3.6_20160606_linux64 -lthostmduserapi -lthosttraderapi -lstdc++
+//#cgo linux CPPFLAGS: -fPIC -I. -I/home/vagrant/src/github.com/mrwill84/goctp/api/ThostTraderApi_v6.3.6_20160606_linux64
 import "C"
